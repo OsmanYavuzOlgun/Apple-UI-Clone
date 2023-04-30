@@ -1,0 +1,119 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+body,
+html,
+main {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+header .header {
+  display: flex;
+  background-color: #313132;
+  justify-content: center;
+  padding: 18px;
+  align-items: center;
+}
+header .header .header-items {
+  margin-left: 46px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+header .header .header-items :hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+header .header-subtitle {
+  text-align: center;
+  font-size: 14px;
+}
+header .header-subtitle-shop {
+  color: #06c;
+  cursor: pointer;
+}
+
+.texts {
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+.texts .title {
+  font-weight: 500;
+  font-size: 56px;
+  color: #eeeeee;
+  margin: 64px 0 12px 0;
+}
+.texts .subtitle {
+  font-weight: 500;
+  font-size: 26px;
+  color: #eeeeee;
+  margin: 0 0 18px 0;
+}
+.texts .subtitle-available {
+  font-weight: 400;
+  font-size: 20px;
+  color: #86868b;
+  margin: 0 0 18px 0;
+}
+.texts .subtitle-links {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2997ff;
+}
+.texts .subtitle-links .order {
+  margin-left: 42px;
+}
+
+.image {
+  margin: 50px auto 0;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+main section.introduction {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+main section.big {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fbfbfd;
+}
+main section.big .texts .title {
+  color: #000000;
+}
+main section.big .texts .subtitle {
+  color: #000000;
+}
+main section.big .texts .subtitle-available {
+  margin-bottom: 0;
+}
+main section.big .texts .margin {
+  margin-top: 4px;
+}
+main section.big .texts .subtitle-links {
+  color: #0066cc;
+}
+main section.big .image {
+  margin: 20px auto 0;
+}
+main section.rebuilt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+main section.rebuilt .texts .title {
+  margin-bottom: 4px;
+}
+main section.rebuilt .image {
+  margin: 22px auto 0;
+}/*# sourceMappingURL=index.css.map */
