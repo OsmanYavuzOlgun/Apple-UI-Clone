@@ -272,4 +272,16 @@ main section.card .card-right .subtitle-links {
 main section.card .card-right .image {
   margin: 74px auto 0;
   max-width: 410px;
+}
+main section.swiper-all .swiper {
+  width: 600px;
+  height: 300px;
+}
+main section.swiper-all .swiper .swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+  bottom: 20%;
 }/*# sourceMappingURL=index.css.map */
