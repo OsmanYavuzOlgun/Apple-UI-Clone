@@ -273,9 +273,17 @@ main section.card .card-right .image {
   margin: 74px auto 0;
   max-width: 410px;
 }
+main section.swiper-all {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1532px;
+}
 main section.swiper-all .swiper {
-  width: 600px;
-  height: 300px;
+  /*  width: 600px;
+  height: 300px; */
 }
 main section.swiper-all .swiper .swiper-pagination {
   position: absolute;
@@ -283,5 +291,25 @@ main section.swiper-all .swiper .swiper-pagination {
   transition: 0.3s opacity;
   transform: translate3d(0, 0, 0);
   z-index: 10;
-  bottom: 20%;
+  bottom: 0%;
+}
+main section.swiper-all .swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #a7a7a7;
+}
+main section.swiper-all .swiper .swiper-wrapper .swiper-slide-prev,
+main section.swiper-all .swiper .swiper-wrapper .swiper-slide-next {
+  opacity: 0.6;
+  transition: 0.4s ease-in-out;
+}
+main section.swiper-all .swiper .swiper-wrapper .swiper-slide {
+  transform: scale(0.99);
+}
+main section.swiper-all .swiper .swiper-wrapper .swiper-slide .swiper-img {
+  margin: 0 auto;
+  padding: 32px 0 32px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

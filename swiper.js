@@ -3,7 +3,10 @@ const swiper = new Swiper(".swiper-all .swiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  direction: "horizontal",
+  slidesPerView: 1.5,
+  centeredSlides: true,
+  spaceBetween: 0,
+  autoplay:true,
   /*  breakpoints: {
     320: {
       slidesPerView: 2,
@@ -18,8 +21,7 @@ const swiper = new Swiper(".swiper-all .swiper", {
       spaceBetween: 40
     }
   },  */
-
-  spaceBetween: 100,
+  autoplay: false,
   navigation: {
     prevEl: ".swiper-button-prev",
     nextEl: ".swiper-button-next",

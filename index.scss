@@ -285,16 +285,44 @@ main {
       }
     }
     &.swiper-all {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+      height: 100%;
+      max-width: 1532px;
       .swiper {
-        width: 600px;
-        height: 300px;
+        /*  width: 600px;
+        height: 300px; */
         .swiper-pagination {
           position: absolute;
           text-align: center;
           transition: 0.3s opacity;
           transform: translate3d(0, 0, 0);
           z-index: 10;
-          bottom: 20%;
+          bottom: 0%;
+          .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            background-color: #a7a7a7;
+          }
+        }
+        .swiper-wrapper {
+          .swiper-slide-prev,
+          .swiper-slide-next {
+            opacity: 0.6;
+            transition: 0.4s ease-in-out;
+          }
+          .swiper-slide {
+            transform: scale(0.99);
+            .swiper-img {
+              margin: 0 auto;
+              padding: 32px 0 32px 0;
+              display: flex;
+              justify-content: center;
+              width: 100%;
+            }
+          }
         }
       }
     }
